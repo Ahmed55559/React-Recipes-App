@@ -1,0 +1,15 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+body,
+html {
+    background-color: #2b2b2b
+}
+
+* {
+    @apply box-border;
+}
+
+.container {
+    @apply mx-auto p-2;
+}
